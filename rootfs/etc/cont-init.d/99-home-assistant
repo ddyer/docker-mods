@@ -3,6 +3,7 @@
 apt-get update && apt-get install -y \
     ack \
     libarchive-tools \
+    bsdtar \
     build-essential \
     colordiff \
     git \

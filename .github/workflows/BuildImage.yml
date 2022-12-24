@@ -3,7 +3,7 @@ name: Build, Push
 on:
   push:
     branches:
-      - main
+      - code-server-home-assistant
     paths-ignore:
       - '**/README.md'
   schedule:

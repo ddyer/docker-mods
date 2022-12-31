@@ -4,3 +4,4 @@ LABEL maintainer="stecky"
 
 # copy local files
 COPY rootfs/ /
+

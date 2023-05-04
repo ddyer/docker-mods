@@ -21,7 +21,7 @@ Full docker-compose:
           - '/opt/github:/ha_config/github_projects'
           - '/home/aneisch/.backup:/ha_config/homeassistant-git'
         environment:
-          - 'DOCKER_MODS=ghcr.io/aneisch/code-server-home-assistant'
+          - 'DOCKER_MODS=ghcr.io/ddyer/code-server-home-assistant'
           - 'HOMEASSISTANT_URL=http://10.0.1.22:8123'
           - PUID=1000
           - PGID=1000

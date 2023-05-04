@@ -19,6 +19,7 @@ apt-get update && apt-get install -y \
     python3 \
     wget \
     uuid-runtime \
+    bdstar \
     zsh
 
 sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen
